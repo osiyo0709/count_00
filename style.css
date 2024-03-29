@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-style: italic;
+    font-size: 15px;
+}
+.container{
+    margin: 3em auto;
+    padding: 3em;
+    max-width: 600px;
+    width: 90%;
+    border: 1px solid rgb(18, 18, 222);
+    border-radius: 10px;
+}
+#text{
+    border:  1px solid blue;
+    display: block;
+    height: 200px;
+    border-radius: 5px;
+    width: 100%;
+    resize: none;
+}
+.counters{
+    margin-top: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.counters div{
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.counters span{
+    display: inline-block;
+    border: 1px solid blue;
+    display: block;
+    margin: 1em 0 1em 1em;
+    padding: 0.5em;
+    text-align: center;
+    min-width: 60px;
+    min-height: 35px;
+}
+textarea{
+    background-color: rgba(60, 94, 204, 0.831);
+    color: white;
+}
